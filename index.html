@@ -7,7 +7,7 @@
   <meta name="description" content="The HTML5 Herald">
   <meta name="author" content="SitePoint">
   <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="main.css">
   <!-- jQuery library -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <!-- Latest compiled JavaScript -->
@@ -25,13 +25,17 @@
     <p><a href="contact.html">Kontakt</a></p>
     
   </nav>
-  <form class="login">
-    <input type="text" placeholder="Username">
-    <input type="password" placeholder="Password">
-    <button>Login</button>
-  </form>
-  
-  <a href="https://codepen.io/davinci/" target="_blank">check my other pens</a>
+	  
+	<div class="mainContainer animated flipInX" id="mainFrame">
+		<div class="innerContainer">
+	    	<form>
+	        	<input id="submitField" type="text" class="inputBox" placeholder="Type your login here" autofocus="autofocus" /> 
+	        	<input type="reset" value="" id="deleteButton"/>
+	        </form>
+	        <span class="submitButton"> Submit </span>
+	    </div>
+	</div>
+
 
 
 
