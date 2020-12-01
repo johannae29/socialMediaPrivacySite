@@ -1,11 +1,18 @@
 .body{
     background-color: white;
 }
+.mb-1{
+    background-color: tomato;
+}
 .my-5{
-    /*background-color: white;*/
-    margin: auto;
+    background-color: white;
+    margin: 10px;
 }
 
+.row{
+    margin: 10px;
+    padding-bottom: 10px;
+}
 .form-header{
     padding: 1rem;
     margin-top: -3.13rem;
@@ -29,3 +36,27 @@
     width:100%;
     position:absolute;
   }
+
+  footer.footerLists{	
+	background: tomato;
+	/*color: #eaeaeb;*/
+	text-align: center;
+	width: 100%;
+	position: fixed;
+  	left: 0;
+  	bottom: 0;
+  	color: white;
+  	border-top-style: solid;
+  	border-top-width: 1px;
+  	/*border-color: white;*/
+}
+.listFooter{
+	list-style-type: none;
+	display: inline-block;
+}
+footer ul{
+	display: inline;
+}
+.listFooter li{
+	margin-top: 5px;
+}
