@@ -1,5 +1,9 @@
-.my-5{
+.body{
     background-color: white;
+}
+.my-5{
+    /*background-color: white;*/
+    margin: auto;
 }
 
 .form-header{
@@ -12,13 +16,6 @@
     -webkit-box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18), 0 4px 15px 0 rgba(0,0,0,0.15);
     box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18), 0 4px 15px 0 rgba(0,0,0,0.15);
 }
-
-.my-card{
-    background-color: white;
-    margin: auto;
-}
-
-
 .map-container-section {
     overflow:hidden;
     padding-bottom:56.25%;
