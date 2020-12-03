@@ -20,7 +20,7 @@ body {
 	padding-top: 100px;
 	width: 50%;
 }
-button {
+button.dela {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;

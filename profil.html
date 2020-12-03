@@ -1,37 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8">
-	<title>418 I'm a teapot</title>
-	<meta content="The HTML5 Herald" name="description">
-	<meta content="SitePoint" name="author">
+	  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1"> 
+  <title>418 I'm a teapot</title>
+  <meta name="description" content="x">
+  <meta name="author" content="Team 418: I'm a teapot">
+  <link rel="icon" type="image/png" sizes="16x16" href="kettle.png"> 
+
+  <!-- mdboostrap-->
+  <!--<title>Material Design for Bootstrap</title>-->
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Google Fonts Roboto -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Material Design Bootstrap -->
+  <link rel="stylesheet" href="css/mdb.min.css">
+  <!-- My CSS -->
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="css/style.css">
 	<link href="profil.css" rel="stylesheet">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
-	</script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js">
-	</script>
-	<link href="kettle.png" rel="icon" sizes="16x16" type="image/png">
-	<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" id="bootstrap-css" rel="stylesheet">
-	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js">
+	<!--<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js">
 	</script>
 	<script src="//code.jquery.com/jquery-1.11.1.min.js">
-	</script>
+	</script>-->
+	
 </head>
 <body>
 <header>
 	<h1>Home</h1>
 	</header>
-	<nav>
-		<p><a href="index.html">Home</a></p>
-		<p><a href="inloggad.html">Inloggad</a></p>
-    <p><a href="contact.html">Kontakt</a></p>
+	<nav class="mb-1 navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" href="#">418: I'm a teapot</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-333"
+      aria-controls="navbarSupportedContent-333" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent-333">
+       <ul class="navbar-nav mr-auto">
+         <li class="nav-item active">
+           <a class="nav-link" href="inloggad.html" title="Hem"><i class="fas fa-home"></i>Hem
+            <span class="sr-only">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html" title="Kontakt"><i class="far fa-envelope"></i>Kontakt</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html" title="Kontakt"><i class="fas fa-plus-square"></i>Lägg till</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav ml-auto nav-flex-icons">
+        <li class="nav-item dropdown" title="Min profil">
+          <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+            <i class="fas fa-user"></i>
+          </a>
+          <div class="dropdown-menu dropdown-menu-right dropdown-default"
+          aria-labelledby="navbarDropdownMenuLink-333">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="index.html">Logga ut</a>
+          </div>
+        </li>
+      </ul>
+    </div>
     </nav>
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+	
 	<div class="container">
-		<div class="fb-profile"><img align="left" alt="Profile image example" class="fb-image-lg" src="profilbak.jpg"> <img align="left" alt="Profile image example" class="fb-image-profile thumbnail" src="http://lorempixel.com/180/180/people/9/"></div>
+		<div class="fb-profile"><img align="left" alt="Profile image example" class="fb-image-lg" src="profilbak.jpg">
+		<img align="left" alt="Profile image example" class="fb-image-profile" src="profilbild.jpg"></div>
 	</div>
 	<div><img alt="adamojag" class="adamoanna" src="adamoanna.jpg"></div>
-	<button data-toggle="tooltip" title="Denna bild kommer synas för alla dina vänner">Dela</button>
+	<button class="dela" data-toggle="tooltip" title="Denna bild kommer synas för alla dina vänner">Dela</button>
 	<div class="tooltip bs-tooltip-top" role="tooltip">
 		<div class="arrow"></div>
 		<div class="tooltip-inner"></div>
